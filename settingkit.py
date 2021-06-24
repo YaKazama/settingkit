@@ -307,3 +307,5 @@ def initialize(st_default=None,
     print("settingkit_initialize_ok")
     return st
 
+__all__ = []
+
