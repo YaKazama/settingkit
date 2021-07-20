@@ -4,7 +4,7 @@
 ## 注意事项
 
 - 加载顺序（先后顺序）：`默认配置 > 用户配置 | 环境变量`
-  - 根据loca_settings()、load_enviroment()函数执行先后顺序而定
+  - 根据load_settings()、load_enviroment()函数执行先后顺序而定
 - 不同的数据类型，其值处理方式不同，如下。
   - `list,tuple`：会自动追加并去重
   - `dict`：更新（参考dict.update()函数）
